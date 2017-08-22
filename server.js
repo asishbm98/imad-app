@@ -1,6 +1,6 @@
-var express = require('express');
-var morgan = require('morgan');
-var path = require('path');
+var express = require('express');   //server creation
+var morgan = require('morgan');     //logs outputs
+var path = require('path');         //  
 
 var app = express();
 app.use(morgan('combined'));
